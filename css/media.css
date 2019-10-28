@@ -1,0 +1,345 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 54px !important;
+        line-height: 55px !important;
+        letter-spacing: -2px;
+    }
+    h2 {
+        font-size: 30px !important;
+        line-height: 34px;
+        letter-spacing: -1px;
+    }
+    .common-btn {
+        padding: 5px 27px 5px 27px;
+    }
+    .green-btn {
+        border: 2px solid #18d193;
+        background: #18d193;
+    }
+    .green-btn:hover {
+        background: #18d193;
+        color: #fff !important;
+    }
+    .btn-arrow::after {
+        display: none !important;
+    }
+    .white-btn:hover {
+        background-color: #fff !important;
+        color: #fff !important;
+    }
+    #main {
+        width: 100%;
+    }
+    .mainav {
+        padding: 0;
+    }
+    .workspace-content-box {
+        padding: 27px 33px;
+    }
+    #transform .single-circle {
+        bottom: -10px;
+    }
+    .workspace-content-box {
+        padding: 37px 33px;
+        right: 0;
+        left: 0;
+    }
+    .workspace-content {
+        padding: 40px 30px;
+    }
+    #slider .green-btn {
+        padding: 5px 12px;
+    }
+    #transform {
+        padding: 30px 0;
+    }
+    #transform h1 {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    #transform .single-overlay {
+        top: 7%;
+        left: 0;
+        padding: 100px 20px;
+        transition: all .4s;
+    }
+    #transform .single-1 .single-overlay {
+        background-color: rgba(24, 209, 147, .6);
+    }
+    #transform .single-2 .single-overlay {
+        background-color: rgba(255, 206, 28, .6);
+    }
+    #transform .single-3 .single-overlay {
+        background-color: rgba(60, 185, 249, .6);
+    }
+    #transform .single-4 .single-overlay {
+        background-color: rgba(239, 55, 123, .6);
+    }
+    #slider .single h3 {
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: -1px;
+    }
+    #slider .single .slider-title {
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 48px;
+        margin-bottom: 18px;
+        padding: 0;
+        display: block;
+    }
+    .overlay-nav {
+        padding-left: 30px;
+    }
+    .overlay-nav ul ul {
+        margin-left: 20px;
+    }
+    .overlay-nav ul li a {
+        font-size: 26px;
+    }
+    .overlay-nav ul li > a:hover {
+        padding-left: 0px;
+    }
+    .overlay-nav ul ul li a {
+        color: #cacaca;
+        font-size: 20px;
+    }
+    #benifits {
+        padding: 40px 30px;
+    }
+    .benifit-header {
+        margin-bottom: 30px;
+    }
+    #imgText .single {
+        color: #fff;
+        padding: 40px 20px;
+    }
+    #progress {
+        padding: 40px 30px;
+    }
+    #progress h2 {
+        font-size: 24px !important;
+        margin-bottom: 30px;
+    }
+    .progress-card-body .single::after {
+        display: none;
+    }
+    #workspaceCraft {
+        padding: 40px 0;
+    }
+    #design {
+        padding: 40px 0;
+    }
+    .stressful h2 {
+        font-size: 30px !important;
+    }
+    .delivery h3 {
+        font-size: 25px !important;
+    }
+    .delivery .benifits-card {
+        padding: 30px 0 0;
+    }
+    .brand-card .card-body {
+        padding: 0 !important;
+    }
+    .project-row {
+        margin: 10px 0;
+    }
+    .project-row h3 {
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: -0.42px;
+        line-height: 26px;
+        margin-bottom: 0;
+        padding: 10px 0;
+    }
+    .double-project-row {
+        margin: 10px 0px;
+    }
+    .project-single .project-title {
+        font-size: 42px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        line-height: 48px;
+        margin-bottom: 16px;
+        padding: 10px 0;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    h1 {
+        font-size: 50px !important;
+        line-height: 55px !important;
+        letter-spacing: -4px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 34px;
+        letter-spacing: -1px;
+    }
+    .common-btn {
+        padding: 5px 27px 5px 27px;
+    }
+    .green-btn {
+        border: 2px solid #18d193;
+        background: #18d193;
+    }
+    .green-btn:hover {
+        background: #18d193;
+        color: #fff !important;
+    }
+    .btn-arrow::after {
+        display: none !important;
+    }
+    .white-btn:hover {
+        background-color: #fff !important;
+        color: #fff !important;
+    }
+    #main {
+        width: 100%;
+    }
+    .mainav {
+        padding: 0;
+    }
+    .workspace-content-box {
+        padding: 27px 33px;
+    }
+    #transform .single-circle {
+        bottom: -10px;
+    }
+    .workspace-content-box {
+        padding: 37px 33px;
+        right: 0;
+        left: 0;
+    }
+    #slider .green-btn {
+        padding: 5px 12px;
+    }
+    #transform {
+        padding: 30px 0;
+    }
+    #transform h1 {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    #transform .single-overlay {
+        top: 7%;
+        left: 0;
+        padding: 100px 20px;
+        transition: all .4s;
+    }
+    #transform .single-1 .single-overlay {
+        background-color: rgba(24, 209, 147, .6);
+    }
+    #transform .single-2 .single-overlay {
+        background-color: rgba(255, 206, 28, .6);
+    }
+    #transform .single-3 .single-overlay {
+        background-color: rgba(60, 185, 249, .6);
+    }
+    #transform .single-4 .single-overlay {
+        background-color: rgba(239, 55, 123, .6);
+    }
+    #slider .single h3 {
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: -1px;
+    }
+    #slider .single .slider-title {
+        font-size: 40px;
+        letter-spacing: -4px;
+        line-height: 48px;
+        margin-bottom: 18px;
+        padding: 0;
+        display: block;
+    }
+    .overlay-nav {
+        padding-left: 30px;
+    }
+    .overlay-nav ul ul {
+        margin-left: 20px;
+    }
+    .overlay-nav ul li a {
+        font-size: 26px;
+    }
+    .overlay-nav ul li > a:hover {
+        padding-left: 0px;
+    }
+    .overlay-nav ul ul li a {
+        color: #cacaca;
+        font-size: 20px;
+    }
+    .progress-card-body .single::after {
+        display: none;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #main {
+        width: 100%;
+    }
+    h1 {
+        font-size: 90px;
+        line-height: 94px !important;
+        letter-spacing: -4px;
+        margin-bottom: 14px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    #transform .single-circle {
+        bottom: -10px;
+    }
+    .workspace-content {
+        padding: 40px 30px;
+    }
+    .workspace-content h2 {
+        font-size: 35px;
+    }
+    .workspace-content h6 {
+        margin-bottom: 10px;
+    }
+    .workspace-content p {
+        margin-bottom: 10px;
+    }
+    .workspace-content-box {
+        padding: 25px;
+    }
+    
+    #benifits {
+        padding: 100px 0;
+    }
+    #progress {
+        padding: 100px 0;
+    }
+    #progress h5::after {
+        display: none;
+    }
+    #workspaceCraft {
+        padding: 100px 0;
+    }
+    .progress-card-body .single::after {
+        display: none;
+    }
+    #design {
+        padding: 100px 0;
+    }
+    .overlay-nav ul li a {
+        font-size: 35px;
+    }
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}

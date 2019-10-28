@@ -1,0 +1,389 @@
+/*home page style start*/
+#workspace p {
+    font-size: 18px;
+}
+#workspace h6 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+.banner-content h1 {
+    line-height: 115px;
+}
+.banner-content a i {
+	margin-left: 10px;
+	transition: .2s;
+}
+.banner-content a:hover i {
+	transform: translate(10px, 0);
+}
+.banner-scroll {
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+}
+.banner-content p {
+    color: #fff;
+}
+/*workspace start*/
+#workspace {
+	background: url(../images/homepage-test1.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.workspace-content-box {
+	text-align: left;
+    max-width: 570px;
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 47px 53px;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+.workspace-col {
+	min-height: 100vh;
+}
+.workspace-content h2 {
+	color: #1a1a1a;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 48px;
+    margin-bottom: 12px;
+}
+/*workspace end*/
+/*transform start*/
+#transform {
+	padding: 60px 0;
+}
+.transform-header {
+	padding-bottom: 50px;
+}
+#transform .single {
+	position: relative;
+	height: 360px;
+	color: #fff;
+	overflow: hidden;
+}
+#transform .single-1 {
+	background: url(https://www.rhinooffice.co.uk/hubfs/Blend%202019/Homepage/card_img_1.png) no-repeat center;
+	background-size: cover;
+}
+#transform .single h3 {
+	font-size: 22px;
+    line-height: 24px;
+	padding: 60px 20px 10px;
+	font-weight: 800;
+    letter-spacing: -1px;
+	position: absolute;
+	z-index: 99;
+}
+#transform .single p {
+	font-size: 14px;
+    line-height: 20px;
+}
+#transform .single-overlay {
+	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+	background-color: #18D193;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 84%;
+	left: 0;
+	padding: 100px 20px;
+	transition: all .4s;
+}
+#transform .single a {
+	text-decoration: none;
+	color: #fff;
+	text-align: right;
+	display: block;
+	margin-top: 90px;
+}
+#transform .single:hover .single-overlay {
+	top: 7%;
+}
+#transform .single-2 {
+	background: url(https://www.rhinooffice.co.uk/hubfs/Blend%202019/Homepage/card_img_2.png) no-repeat center;
+	background-size: cover;
+}
+#transform .single-3 {
+	background: url(https://www.rhinooffice.co.uk/hubfs/Blend%202019/Homepage/card_img_3.png) no-repeat center;
+	background-size: cover;
+}
+#transform .single-4 {
+	background: url(https://www.rhinooffice.co.uk/hubfs/Blend%202019/Homepage/card_img_4.png) no-repeat center;
+	background-size: cover;
+}
+#transform .single-1 .single-overlay {
+	background-color: #18D193;
+}
+#transform .single-2 .single-overlay {
+	background-color: #FFCE1C;
+}
+#transform .single-3 .single-overlay {
+	background-color: #3CB9F9;
+}
+#transform .single-4 .single-overlay {
+	background-color: #EF377B;
+}
+.transform-col {
+	position: relative;
+}
+#transform .single-circle {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -50px;
+	margin: 0 auto;
+	z-index: 999;
+}
+#transform .single-circle-1 {
+	background-color: #18D193;
+}
+#transform .single-circle-2 {
+	background-color: #FFCE1C;
+}
+#transform .single-circle-3 {
+	background-color: #3CB9F9;
+}
+#transform .single-circle-4 {
+	background-color: #EF377B;
+}
+/*transform end*/
+
+
+
+/*home page style end*/
+
+/*office design style start*/
+#design {
+    padding: 180px 0;
+}
+.reality-row {
+    min-height: 500px;
+}
+/*office design style end*/
+
+
+/*office fit out style start*/
+.brand-card,
+.brand-card img{
+    border-radius: 0;
+}
+.brand-card {
+    border-color: #f4f4f4 !important;
+    overflow: hidden;
+    width: 100%;
+    height: 130px;
+}
+.card-img {
+    position: relative;
+    z-index: 999;
+}
+.brand-card .overlay-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.brand-card .card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 99999;
+    transition: .4s;
+}
+.brand-card:hover .card-overlay {
+    top: 0;
+}
+.brand-card .overlay-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.brand-card .overlay-white {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+.brand-card .card-overlay p {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 99999;
+    color: #fff;
+}
+.work-form {
+    background-color: #18D193;
+}
+.work-form h2 {
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 48px;
+    margin-bottom: 12px;
+}
+.work-form label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.38px;
+    line-height: 26px;
+}
+.work-form input[type=text] {
+    background-color: #12B981;
+    border: 0;
+    padding: 7px 10px;
+    margin-left: 10px;
+}
+.work-form input::placeholder {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.38px;
+    line-height: 26px;
+    
+}
+.work-form input[type=radio] {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    color: #fff;
+}
+.work-form button {
+    border: 2px solid #fff;
+}
+.work-form button:hover {
+    background-color: #fff;
+    color: #18D193;
+}
+/*office fit out style end*/
+
+/*office furniture start*/
+.benifits-card {
+    padding-top: 45px;
+    height: 400px;
+}
+.brand-card {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+/*office furniture end*/
+/*project style start*/
+.project-row {
+    min-height: 500px;
+    color: #fff;
+    margin: 0 30px;
+    transition: all .45s ease-in-out;
+    margin-bottom: 15px;
+}
+.project1-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/Main%20Background%20Image%20a.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project-row:hover {
+    background-size: 110% 110%;
+}
+.project2-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/Kortec3.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project3-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/Mills%20CNC2.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project4-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/GlucoRX36-2.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project5-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/CSI11-2.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project6-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/Frovi-masthead-1.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project7-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/homepage-jerroms-case-study.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project8-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/forest-holidays-masthead-1.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project9-row {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/marel-masthead-1.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project-single .project-title {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 130px;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.project-half {
+    min-height: 400px;
+    transition: all .35s ease-in-out;
+}
+.double-project-row {
+    margin: 0 30px;
+}
+.project-half h3 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.42px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+.project-half .project-title {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+.project-half-1 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/motorpoint_case_study_listing.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.project-half-2 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/Denso.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project-half-3 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/abb_case_study_listing.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.project-half-4 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/our-work/smith_case_study_listing.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.project-half:hover {
+    background-size: 110% 110%;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+/*project style end*/
+
+
